@@ -49,7 +49,7 @@ public class EnemyAI : MonoBehaviour
             if(state  == State.Waiting)
             {
                 animator.SetBool("isMoving", false);
-                yield return new WaitForSeconds(3f);
+                yield return new WaitForSeconds(2f);
                 state = State.Roaming;
             }
             else if (state == State.Roaming)

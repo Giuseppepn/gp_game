@@ -5,6 +5,7 @@ using UnityEngine;
 public class ChestController : MonoBehaviour
 {
     public Sprite chestOpened;
+    public Sprite chestClosed;
     private SpriteRenderer chestRenderer;
 
     private void Start()
@@ -17,6 +18,15 @@ public class ChestController : MonoBehaviour
         if (collision.gameObject.name == "Player")
         {
             chestRenderer.sprite = chestOpened;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == "Player")
+        {
+            chestRenderer.sprite = chestClosed;
+
         }
     }
 }

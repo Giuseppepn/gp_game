@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,7 +12,6 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator myAnimator;
     private SpriteRenderer mySpriteRender;
-    private Sprite chestOpened;
 
 
     private void Awake()
@@ -67,10 +67,20 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
-    public void checkChestCollision()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("COLLISIONE! con: " + collision.gameObject.name);
+        if (collision.gameObject.name == "Coin(Clone)")
+        {
+            coins++;
+            Debug.Log("Le monete sono: " + coins);
+            Destroy(collision.gameObject);
+        }
+    }
 
+    public int GetCoins()
+    {
+        return coins;
     }
 
 

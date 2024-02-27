@@ -259,6 +259,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Grass G
       objectReference: {fileID: 0}
+    - target: {fileID: 4745955801092249460, guid: 8d15c39fd3e3cab47ab96fbaf6dc2f92, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5100217437599595380, guid: 8d15c39fd3e3cab47ab96fbaf6dc2f92, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.927778
@@ -427,6 +431,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3679833107318686742, guid: c6d86ec8825b7674a9736d1cb0cd98a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3750370037490083862, guid: c6d86ec8825b7674a9736d1cb0cd98a2, type: 3}
+      propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8193410510875309158, guid: c6d86ec8825b7674a9736d1cb0cd98a2, type: 3}
@@ -1109,6 +1117,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1537126829261287204, guid: 019ab1af1d7a4b742a982c009534c058, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5830985496270386004, guid: 019ab1af1d7a4b742a982c009534c058, type: 3}
       propertyPath: m_Name
       value: PF Grass E
@@ -1417,6 +1429,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 733654380}
     m_Modifications:
+    - target: {fileID: 4074815858811720560, guid: 4800845c2c4caa84eb6194552ae9c841, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4581918338887155568, guid: 4800845c2c4caa84eb6194552ae9c841, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.1693573
@@ -1858,6 +1874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Grass O
       objectReference: {fileID: 0}
+    - target: {fileID: 8190442739312476497, guid: bf462882706828c44a4465986b6fb8d2, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8552570291598617937, guid: bf462882706828c44a4465986b6fb8d2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.0862303
@@ -2108,6 +2128,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 733654380}
     m_Modifications:
+    - target: {fileID: 4164583253559616341, guid: 8c66149e58003104daf96668db118b4f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4526411729153331029, guid: 8c66149e58003104daf96668db118b4f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.694419
@@ -2168,6 +2192,10 @@ PrefabInstance:
     - target: {fileID: 4331307297609962461, guid: fd980c817c63af4458df40a61e529e93, type: 3}
       propertyPath: m_Name
       value: PF Grass D
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765359296094965677, guid: fd980c817c63af4458df40a61e529e93, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9132832536761082797, guid: fd980c817c63af4458df40a61e529e93, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2237,7 +2265,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1360264394729772852, guid: 4fad9c4de6b725a43bb1200ed9479c08, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.031737
+      value: -4.33
       objectReference: {fileID: 0}
     - target: {fileID: 1360264394729772852, guid: 4fad9c4de6b725a43bb1200ed9479c08, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2387,6 +2415,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8848819282490232040, guid: 1dc4948f20ddc324f84c815af63aa6a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9067939962960978152, guid: 1dc4948f20ddc324f84c815af63aa6a9, type: 3}
+      propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2629,6 +2661,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5643153780497997478, guid: c5c395a83c3338d46bd52e936cf46245, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2657,7 +2693,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5055698509961064898, guid: 6d6991dbbdeecb1488bbf78c063d1235, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7282632
+      value: 1.06
       objectReference: {fileID: 0}
     - target: {fileID: 5055698509961064898, guid: 6d6991dbbdeecb1488bbf78c063d1235, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2875,6 +2911,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8228059593326255414, guid: 84d669757910f1f488023c92e71fcad5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8445772674887217462, guid: 84d669757910f1f488023c92e71fcad5, type: 3}
+      propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6298,6 +6338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chestOpened: {fileID: 21300040, guid: 29c9cded5e558164aaf8c9bf08aa1510, type: 3}
   chestClosed: {fileID: 21300000, guid: 29c9cded5e558164aaf8c9bf08aa1510, type: 3}
+  Coin: {fileID: 2949300778180345906, guid: 92456f3019af3314c942cc917b32584c, type: 3}
 --- !u!4 &1846086748 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2055102311959635375, guid: 0505844a909d2ea4996c19b67b2a40b9, type: 3}
@@ -6627,6 +6668,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 733654380}
     m_Modifications:
+    - target: {fileID: 4050966946375720420, guid: dbeab85cbe3b90b41a444794aab794ef, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4552424414636700132, guid: dbeab85cbe3b90b41a444794aab794ef, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.068196
@@ -6711,6 +6756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 6
   coins: 0
+  healthpoints: 5
 --- !u!70 &2138144403
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

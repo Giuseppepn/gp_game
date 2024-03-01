@@ -13,7 +13,6 @@ public class PlayerHealth : MonoBehaviour
     private PlayerController playerController;
     private int currentHP;
     private bool canTakeDamage = true;
-
     void Start()
     {
         playerController = GetComponent<PlayerController>();

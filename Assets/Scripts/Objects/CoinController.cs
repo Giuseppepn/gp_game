@@ -17,7 +17,7 @@ public class coinController : MonoBehaviour
         Vector3 originalPosition = transform.position;
         Vector3 targetPosition = originalPosition + Vector3.up * 0.75f;
 
-        float duration = 0.5f;
+        float duration = 0.35f;
         float startTime = Time.time;
 
 
@@ -35,7 +35,7 @@ public class coinController : MonoBehaviour
 
 
         startTime = Time.time;
-        duration = 0.5f;
+        duration = 0.35f;
 
 
         while (Time.time < startTime + duration)

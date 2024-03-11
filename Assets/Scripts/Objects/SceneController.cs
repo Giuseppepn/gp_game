@@ -10,6 +10,7 @@ public class SceneController : Singleton<SceneController>
     {
         this.SceneTransitionName = sceneTransitionName;
     }
+
 }
 
 

@@ -11,11 +11,10 @@ public class ExitController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "Player")
+        if (collision.gameObject.tag == "Player")
         {
             SceneManager.LoadScene(sceneToLoad);
             SceneController.Instance.SetTransitionName(sceneTransitionName);
-            Debug.Log("aaaa");
         }
     }
 

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : Singleton<PlayerController>
+public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 6f;
     [SerializeField] private int coins = 0;
@@ -20,6 +20,7 @@ public class PlayerController : Singleton<PlayerController>
         rb = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
         mySpriteRender = GetComponent<SpriteRenderer>();
+
     }
 
     private void OnEnable()
@@ -29,7 +30,7 @@ public class PlayerController : Singleton<PlayerController>
 
     private void Update()
     {
-        //patata
+       
         PlayerInput();
     }
 

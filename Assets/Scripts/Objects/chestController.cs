@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,8 +19,8 @@ public class ChestController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
-        if (collision.gameObject.name == "Player" && chestRenderer.sprite == chestClosed)
+        Debug.Log(collision.gameObject.name);
+        if (collision.gameObject.tag == "Player" && chestRenderer.sprite == chestClosed)
         {
             chestRenderer.sprite = chestOpened;
             render.sortingOrder = 2;
